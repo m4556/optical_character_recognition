@@ -1,4 +1,4 @@
-# OCR from scratch
+# custom OCR 
 
 ###  Project Overview
 <img src="https://github.com/m4556/t/blob/main/SE_-OCR_1(2).png" width="600" >
@@ -11,7 +11,7 @@ Using Deep Learning for OCR is a three-step process:
 3. **Text Recognition:** Once the text location is identified, each bounding box is sent to the text recognition model.
 
 ### Data collection
-Once the invoice dataset is collected, we will se Labelling tool to label invoice data.
+Dataset contains different image of digital invoices. After that, annotation tool was used to make annotations for targeted classses. 
 <img src="https://github.com/m4556/t/blob/main/New%20Project(1).png" width="600" >
  
 ### Text detection model
@@ -21,13 +21,13 @@ There are many approaches for text detection, such as:
 - Regression-based Methods: These methods directly regress the coordinates of the bounding boxes around the text in the image. Examples include YOLO.
 - Segmentation-based Methods: These methods segment the text regions from the background by predicting pixel-level text masks. FCN and U-Net architectures are commonly used for text segmentation.
 
-In this project we use transfer learning to fine tune YOLOV4 on a custom invoice dataset.
+In this project we use transfer learning to fine tune YOLOV8 on a custom invoice dataset.
 
 
 ###  Text recognition model
 Once the text location is identified, each bounding box is sent to the text recognition model which is usually a combination of RNNs, CNNs, and Attention networks,or open source models like  like Tesseract, MMOCR.
 
-In this project we will use Tesseract for text recognition.
+In this project we will use Tesseract pretrained LSTM for text recognition.
 
 
 ### Results
