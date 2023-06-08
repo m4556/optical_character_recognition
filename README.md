@@ -1,5 +1,5 @@
 ###  Project Overview
-<img src="https://github.com/m4556/t/blob/main/SE_-OCR_1(2).png" width="600" >
+<img src="https://github.com/m4556/optical_character_recognition/blob/main/img/1.png" width="600" >
 
 Goal: Create OCR pipeline from scratch to detect and extract information from invoice documents. The model is trained to identify 3 essential classes from the invoices: Invoice number, Billing Date, and Total amount.
 
@@ -11,7 +11,7 @@ Using Deep Learning for OCR is a three-step process:
 ### Data collection
 Dataset contains different image of digital invoices. After that, annotation tool was used to make annotations for targeted classses. 
 
-<img src="https://github.com/m4556/t/blob/main/New%20Project(1).png" width="800" >
+<img src="https://github.com/m4556/optical_character_recognition/blob/main/img/2.png" width="800" >
  
 ### Text detection model
 
@@ -30,6 +30,6 @@ In this project we will use Tesseract pretrained LSTM for text recognition.
 
 
 ### Results
-<img src="https://github.com/m4556/t/blob/main/new.png" width="800" >
+<img src="https://github.com/m4556/optical_character_recognition/blob/main/img/3.png" width="800" >
 
 
