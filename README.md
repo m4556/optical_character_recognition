@@ -32,4 +32,5 @@ In this project we will use Tesseract pretrained LSTM for text recognition.
 ### Results
 <img src="https://github.com/m4556/optical_character_recognition/blob/main/img/3.png" width="800" >
 
-
+### Setup
+Run on Google Colab
